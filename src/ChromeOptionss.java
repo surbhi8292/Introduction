@@ -11,10 +11,10 @@ import net.bytebuddy.description.ModifierReviewable.OfAbstraction;
 public class ChromeOptionss {
 
 	public static void main(String[] args) {
-		//you can use to customize and configure a ChromeDriver session
-		//https://chromedriver.chromium.org/capabilities
+		// you can use to customize and configure a ChromeDriver session
+		// https://chromedriver.chromium.org/capabilities
 		ChromeOptions options = new ChromeOptions();
-		//options.addExtensions(Path Of extension);
+		// options.addExtensions(Path Of extension);
 		// Set proxy
 //		Proxy proxy = new Proxy();
 //		proxy.setHttpProxy("ipaddress:4444");
@@ -42,9 +42,6 @@ public class ChromeOptionss {
 
 		System.out.println(driver.getTitle());
 
-
-
-		}
-
 	}
 
+}
